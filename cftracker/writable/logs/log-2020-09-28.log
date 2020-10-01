@@ -1,0 +1,142 @@
+CRITICAL - 2020-09-28 20:52:58 --> Call to a member function get() on null
+#0 E:\CodingFork\cftracker-v2\vendor\codeigniter4\framework\system\View\View.php(246): include()
+#1 E:\CodingFork\cftracker-v2\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('baselayout/nav....', Array, true)
+#2 E:\CodingFork\cftracker-v2\app\Views\baselayout\header.php(25): view('baselayout/nav....')
+#3 E:\CodingFork\cftracker-v2\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\CodingFork\\c...')
+#4 E:\CodingFork\cftracker-v2\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('baselayout/head...', Array, true)
+#5 E:\CodingFork\cftracker-v2\app\Controllers\BaseController.php(56): view('baselayout/head...', Array)
+#6 E:\CodingFork\cftracker-v2\app\Controllers\Task_Admin.php(14): App\Controllers\BaseController->loadLayout('content/task_Ad...')
+#7 E:\CodingFork\cftracker-v2\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Task_Admin->index()
+#8 E:\CodingFork\cftracker-v2\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task_Admin))
+#9 E:\CodingFork\cftracker-v2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\CodingFork\cftracker-v2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 E:\CodingFork\cftracker-v2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\CodingFork\\c...')
+#12 {main}
+CRITICAL - 2020-09-28 20:53:14 --> Call to a member function get() on null
+#0 E:\CodingFork\cftracker-v2\vendor\codeigniter4\framework\system\View\View.php(246): include()
+#1 E:\CodingFork\cftracker-v2\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('baselayout/nav....', Array, true)
+#2 E:\CodingFork\cftracker-v2\app\Views\baselayout\header.php(25): view('baselayout/nav....')
+#3 E:\CodingFork\cftracker-v2\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\CodingFork\\c...')
+#4 E:\CodingFork\cftracker-v2\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('baselayout/head...', Array, true)
+#5 E:\CodingFork\cftracker-v2\app\Controllers\BaseController.php(56): view('baselayout/head...', Array)
+#6 E:\CodingFork\cftracker-v2\app\Controllers\Task_Admin.php(14): App\Controllers\BaseController->loadLayout('content/task_Ad...')
+#7 E:\CodingFork\cftracker-v2\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Task_Admin->index()
+#8 E:\CodingFork\cftracker-v2\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task_Admin))
+#9 E:\CodingFork\cftracker-v2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\CodingFork\cftracker-v2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 E:\CodingFork\cftracker-v2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\CodingFork\\c...')
+#12 {main}
+CRITICAL - 2020-09-28 20:53:36 --> Call to a member function get() on null
+#0 E:\CodingFork\cftracker-v2\vendor\codeigniter4\framework\system\View\View.php(246): include()
+#1 E:\CodingFork\cftracker-v2\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('baselayout/nav....', Array, true)
+#2 E:\CodingFork\cftracker-v2\app\Views\baselayout\header.php(25): view('baselayout/nav....')
+#3 E:\CodingFork\cftracker-v2\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\CodingFork\\c...')
+#4 E:\CodingFork\cftracker-v2\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('baselayout/head...', Array, true)
+#5 E:\CodingFork\cftracker-v2\app\Controllers\BaseController.php(56): view('baselayout/head...', Array)
+#6 E:\CodingFork\cftracker-v2\app\Controllers\Task_Admin.php(14): App\Controllers\BaseController->loadLayout('content/task_Ad...')
+#7 E:\CodingFork\cftracker-v2\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Task_Admin->index()
+#8 E:\CodingFork\cftracker-v2\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task_Admin))
+#9 E:\CodingFork\cftracker-v2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\CodingFork\cftracker-v2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 E:\CodingFork\cftracker-v2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\CodingFork\\c...')
+#12 {main}
+CRITICAL - 2020-09-28 20:54:11 --> Undefined property: CodeIgniter\View\View::$session
+#0 E:\CodingFork\cftracker-v2\app\Views\baselayout\nav.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\CodingFork\\c...', 33, Array)
+#1 E:\CodingFork\cftracker-v2\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\CodingFork\\c...')
+#2 E:\CodingFork\cftracker-v2\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('baselayout/nav....', Array, true)
+#3 E:\CodingFork\cftracker-v2\app\Views\baselayout\header.php(25): view('baselayout/nav....')
+#4 E:\CodingFork\cftracker-v2\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\CodingFork\\c...')
+#5 E:\CodingFork\cftracker-v2\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('baselayout/head...', Array, true)
+#6 E:\CodingFork\cftracker-v2\app\Controllers\BaseController.php(56): view('baselayout/head...', Array)
+#7 E:\CodingFork\cftracker-v2\app\Controllers\Task_Admin.php(14): App\Controllers\BaseController->loadLayout('content/task_Ad...')
+#8 E:\CodingFork\cftracker-v2\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Task_Admin->index()
+#9 E:\CodingFork\cftracker-v2\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task_Admin))
+#10 E:\CodingFork\cftracker-v2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\CodingFork\cftracker-v2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 E:\CodingFork\cftracker-v2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\CodingFork\\c...')
+#13 {main}
+CRITICAL - 2020-09-28 20:57:09 --> Undefined offset: 0
+#0 E:\CodingFork\cftracker-v2\app\Controllers\Profile.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'E:\\CodingFork\\c...', 22, Array)
+#1 E:\CodingFork\cftracker-v2\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Profile->getProfile()
+#2 E:\CodingFork\cftracker-v2\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#3 E:\CodingFork\cftracker-v2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\CodingFork\cftracker-v2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\CodingFork\cftracker-v2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\CodingFork\\c...')
+#6 {main}
+CRITICAL - 2020-09-28 20:57:22 --> Undefined offset: 0
+#0 E:\CodingFork\cftracker-v2\app\Controllers\Profile.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'E:\\CodingFork\\c...', 22, Array)
+#1 E:\CodingFork\cftracker-v2\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Profile->getProfile()
+#2 E:\CodingFork\cftracker-v2\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#3 E:\CodingFork\cftracker-v2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\CodingFork\cftracker-v2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\CodingFork\cftracker-v2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\CodingFork\\c...')
+#6 {main}
+CRITICAL - 2020-09-28 20:58:24 --> Undefined offset: 0
+#0 E:\CodingFork\cftracker-v2\app\Controllers\Profile.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'E:\\CodingFork\\c...', 22, Array)
+#1 E:\CodingFork\cftracker-v2\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Profile->getProfile()
+#2 E:\CodingFork\cftracker-v2\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#3 E:\CodingFork\cftracker-v2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\CodingFork\cftracker-v2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\CodingFork\cftracker-v2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\CodingFork\\c...')
+#6 {main}
+CRITICAL - 2020-09-28 20:58:28 --> Undefined offset: 0
+#0 E:\CodingFork\cftracker-v2\app\Controllers\Profile.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'E:\\CodingFork\\c...', 22, Array)
+#1 E:\CodingFork\cftracker-v2\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Profile->getProfile()
+#2 E:\CodingFork\cftracker-v2\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#3 E:\CodingFork\cftracker-v2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\CodingFork\cftracker-v2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\CodingFork\cftracker-v2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\CodingFork\\c...')
+#6 {main}
+CRITICAL - 2020-09-28 21:00:02 --> Undefined offset: 0
+#0 E:\CodingFork\cftracker-v2\app\Controllers\Profile.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'E:\\CodingFork\\c...', 22, Array)
+#1 E:\CodingFork\cftracker-v2\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Profile->getProfile()
+#2 E:\CodingFork\cftracker-v2\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#3 E:\CodingFork\cftracker-v2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\CodingFork\cftracker-v2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\CodingFork\cftracker-v2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\CodingFork\\c...')
+#6 {main}
+CRITICAL - 2020-09-28 21:00:15 --> Undefined offset: 0
+#0 E:\CodingFork\cftracker-v2\app\Controllers\Profile.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'E:\\CodingFork\\c...', 22, Array)
+#1 E:\CodingFork\cftracker-v2\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Profile->getProfile()
+#2 E:\CodingFork\cftracker-v2\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#3 E:\CodingFork\cftracker-v2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\CodingFork\cftracker-v2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\CodingFork\cftracker-v2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\CodingFork\\c...')
+#6 {main}
+CRITICAL - 2020-09-28 21:00:20 --> Undefined offset: 0
+#0 E:\CodingFork\cftracker-v2\app\Controllers\Profile.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'E:\\CodingFork\\c...', 22, Array)
+#1 E:\CodingFork\cftracker-v2\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Profile->getProfile()
+#2 E:\CodingFork\cftracker-v2\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#3 E:\CodingFork\cftracker-v2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\CodingFork\cftracker-v2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\CodingFork\cftracker-v2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\CodingFork\\c...')
+#6 {main}
+CRITICAL - 2020-09-28 21:01:10 --> Undefined variable: session
+#0 E:\CodingFork\cftracker-v2\app\Views\baselayout\modal.php(1): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\CodingFork\\c...', 1, Array)
+#1 E:\CodingFork\cftracker-v2\app\Views\baselayout\header.php(27): include('E:\\CodingFork\\c...')
+#2 E:\CodingFork\cftracker-v2\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\CodingFork\\c...')
+#3 E:\CodingFork\cftracker-v2\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('baselayout/head...', Array, true)
+#4 E:\CodingFork\cftracker-v2\app\Controllers\BaseController.php(56): view('baselayout/head...', Array)
+#5 E:\CodingFork\cftracker-v2\app\Controllers\Task_Admin.php(14): App\Controllers\BaseController->loadLayout('content/task_Ad...')
+#6 E:\CodingFork\cftracker-v2\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Task_Admin->index()
+#7 E:\CodingFork\cftracker-v2\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Task_Admin))
+#8 E:\CodingFork\cftracker-v2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\CodingFork\cftracker-v2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 E:\CodingFork\cftracker-v2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\CodingFork\\c...')
+#11 {main}
+CRITICAL - 2020-09-28 21:09:23 --> Undefined variable: data
+#0 E:\CodingFork\cftracker-v2\app\Controllers\Profile.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\CodingFork\\c...', 45, Array)
+#1 E:\CodingFork\cftracker-v2\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Profile->saveProfile()
+#2 E:\CodingFork\cftracker-v2\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#3 E:\CodingFork\cftracker-v2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\CodingFork\cftracker-v2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\CodingFork\cftracker-v2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\CodingFork\\c...')
+#6 {main}
+CRITICAL - 2020-09-28 21:09:36 --> Undefined variable: where
+#0 E:\CodingFork\cftracker-v2\app\Controllers\Profile.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\CodingFork\\c...', 45, Array)
+#1 E:\CodingFork\cftracker-v2\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Profile->saveProfile()
+#2 E:\CodingFork\cftracker-v2\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#3 E:\CodingFork\cftracker-v2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\CodingFork\cftracker-v2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\CodingFork\cftracker-v2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\CodingFork\\c...')
+#6 {main}

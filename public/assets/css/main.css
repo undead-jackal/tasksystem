@@ -1,0 +1,8 @@
+.accordion .card{
+  margin-bottom: unset!important;
+}
+
+caption{
+  text-align: center;
+  caption-side: top;
+}
